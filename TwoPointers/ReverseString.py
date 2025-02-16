@@ -13,6 +13,6 @@ X = Solution()
 s_list = ["h","e","l","l","o"]
 s_list2 = ["H","a","n","n","a","h"]
 X.reverseString(s_list)
-print(s_list)
+# print(s_list)
 X.reverseString(s_list2)
 print(s_list2)
