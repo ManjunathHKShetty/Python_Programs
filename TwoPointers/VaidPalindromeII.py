@@ -1,4 +1,4 @@
-class solution:
+class Solution:
     def validPalindrome(self, s):
         n = len(s)
         l = 0
@@ -15,7 +15,7 @@ class solution:
 
         return True
 
-X = solution()
+X = Solution()
 result_1 = X.validPalindrome("abca")
 print(result_1)
 result_2 = X.validPalindrome("abc")

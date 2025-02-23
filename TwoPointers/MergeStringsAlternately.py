@@ -1,4 +1,4 @@
-class solution:
+class Solution:
     def mergeAlternately(self, word1, word2):
         i, j = 0, 0
         res = []
@@ -13,7 +13,7 @@ class solution:
         res.append(word2[j:])
         return "".join(res)
 
-X = solution()
+X = Solution()
 result_1 = X.mergeAlternately("abc","pqr")
 print(result_1)
 
